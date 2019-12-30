@@ -1,0 +1,59 @@
+Hi guys.
+
+Running notes:
+  I wrote the code in Javascript, to run on the Node runtime environment.
+  If you do not have node downloaded please install this at https://nodejs.org/en/
+  My node is currently deprecated to 6.13.4, though if you have the latest (^12.14.0) this shouldn't be a problem.
+  To run the code please run
+    $node ...path/vivacitylabs-challenge/index-problem-1.js ...path/vivacitylabs-challenge/input/file-of-choice.txt
+  or
+    $node ...path/vivacitylabs-challenge/index-problem-2.js ...path/vivacitylabs-challenge/input/file-of-choice.txt
+
+  Example (on my machine):
+    node Desktop/vivacitylabs-challenge-4/index-problem-1.js Desktop/vivacitylabs-challenge/input/hash-1.txt
+
+Unusual:
+  I'm not sure if I did anything extremely unusual, I hope you can enlighten me if I have.
+
+Hardest part:
+  The hardest part of the challenges was writing the parseCoordinates function I think simply because it is the most complicated function with many parts. It took regimented testing as I built it to check that the response for each function was correct, I feel that Typescript may have been useful here to alert me if certain variables are not what i think they are. 
+
+Improve:
+  I do not think my parseCoordinates function is very clean, from an outside eye it is fairly confusing, particularly because the iterator for the loop is getting altered in many different functions. An idea i had to improve this was to build a recursive function where the data is deleted as it is passed, you can see my attempts at that at ./problem-2/parseCoordinatesRework.js. Sadly I didn't have enough time, so the function is not quite  to get this to work, but I think dealing with the single data blocks (start of the data up until the first ',') is a cleaner way of tackling this problem; although, I think parseCoordinatesRework.js still needs a bit more refactoring to show this. 
+  I also have function taking excessive variables here and there, which is messing up the cleanliness of the code. I think I may have enjoyed the object destructuring ES6 feature a bit too much (but I hadn't used it before and it seemed pretty fun);
+
+Improve:
+  I really enjoyed these tasks, far beyond any I've done for other interview processes. Pirates are awesome and I think that's a awesome puzzle to have to solve. I will be making some epic maps in the future. 
+  I also really appreciate the example solutions, these really help clarify any uncertainty.
+  Honestly nothing to improve on. It took a while but as it was enjoyable I didn't mind at all.
+
+Hope to hear from you soon,
+
+
+
+
+
+
+and Merry Christmas.
+
+                                               ._...._.
+                       \ .*. /                .::o:::::.
+                        (\o/)                .:::'''':o:.
+                         >*<                 `:}_>()<_{:'
+                        >0<@<             @    `'//\\'`    @
+                       >>>@<<*          @ #     //  \\     # @
+                      >@>*<0<<<      .__#_#____/'____'\____#_#_.
+                     >*>>@<<<@<<     [_________________________]
+                    >@>>0<<<*<<@<     |=_- .-/\ /\ /\ /\--. =_-|
+                   >*>>0<<@<<<@<<<    |-_= | \ \ \ \ \ \\-|-_=-|
+                  >@>>*<<@<>*<<0<*<   |_=-=| / // // // / |_=-_|
+    \*/          >0>>*<<@<>0><<*<@<<  |=_- | `-'`-'`-'`-' |=_=-|
+.___\U//__.    >*>>@><0<<*>>@><*<0<<  | =_-| o          o |_==_|
+ \ | | \  |  >@>>0<*<<0>>@<<0<<<*<@<  |=_- | !     (    ! |=-_=|
+  \| | _(UU)_ >((*))_>0><*<0><@<<<0<*<|-,-=| !    ).    ! |-_-=|
+ \ \| || / //||.*.*.*.|>>@<<*<<@>><0<<|=_,=| ! __(:')__ ! |=_==|
+ \_|_|&&_// ||*.*.*.*|_\db//_   (\_/)-|     /^\=^=^^=^=/^\| _=_|
+  ""|'.'.'.|~~|.*.*.*|      |  =('Y')=|=_,//.------------.\\_,_|
+    |'.'.'.|  |^^^^^^|______|  ( ~~~ )|_,_/(((((((())))))))\_,_|
+    ~~~~~~~ ""       `------'  `w---w'|_____`------------'_____|
+________________________________________________________________

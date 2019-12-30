@@ -1,0 +1,8 @@
+x1y1,
+x0y0,
+x1y4,
+x2y0,x2y1,x2y2,x2y4,
+x3y4,
+x4y1,x4y2,x4y3,x4y4,x4y5,x4y6,
+x6y6,
+x5y5,

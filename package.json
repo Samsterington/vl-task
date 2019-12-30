@@ -1,0 +1,16 @@
+{
+  "name": "vivacitylabs-challenge-2",
+  "version": "1.0.0",
+  "description": "Thank you for applying to join the Vivacity team, and welcome to our coding  challenge.",
+  "main": "index-problem-1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.1.1",
+    "pathfinding": "^0.4.18"
+  }
+}

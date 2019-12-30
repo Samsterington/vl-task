@@ -191,3 +191,5 @@ input/*.answer
 !input/path-basic.txt.example.answer
 !input/path-error.txt.example.answer
 !input/board-given.txt.example.answer
+
+README.md
